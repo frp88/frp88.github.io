@@ -1,0 +1,33 @@
+html, body, header, main, footer, div, h1, h2, h3, p {
+	margin: 0;
+}
+body{
+	font-family: Arial, Verdana, Tahoma;
+	font-size: 20px;
+}
+header, footer{
+	text-align: center;
+	margin-top: 10px;
+}
+video#gol{
+	width: 400px;
+	height: 400px;
+}
+video#engracado{
+	width: 400px;
+	height: 224px;
+}
+.midias{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 15px;
+}
+.audios{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.videos{
+	display: flex;
+	text-align: center;
+}
